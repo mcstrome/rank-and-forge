@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rank & Forge | Driving Growth for Services Companies</title>
+<meta name="description" content="Rank & Forge helps services companies get found and booked with SEO, Google Maps optimization, ads, and simple sales automation.">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<meta property="og:title" content="Rank & Forge">
+<meta property="og:description" content="Driving growth for services companies.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rankandforge.com/">
+<meta property="og:image" content="https://rankandforge.com/assets/logo.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://formspree.io; form-action https://formspree.io">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Organization",
+ "name":"Rank & Forge",
+ "url":"https://rankandforge.com",
+ "logo":"https://rankandforge.com/assets/logo.svg",
+ "sameAs":[
+  "https://x.com/rankandforge",
+  "https://www.linkedin.com/company/rankandforge",
+  "https://instagram.com/rankandforge"
+ ]
+}
+</script>
+</head>
+<body>
+
+<a class="sr-only" href="#main">Skip to content</a>
+
+<header class="header">
+  <div class="container nav">
+    <a href="/"><img src="/assets/logo.svg" alt="Rank & Forge logo" width="132" height="32"></a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="badge" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Driving growth for services companies</h1>
+    <p>We make contractors and B2B service providers easier to find and simpler to hire.</p>
+    <p><a href="#contact" class="cta" role="button">Get a free audit</a></p>
+  </div>
+</section>
+
+<main id="main">
+  <section class="section" id="services">
+    <div class="container">
+      <h2>What we do</h2>
+      <div class="grid cols-4">
+        <div class="card"><h3>Search Engine Optimization</h3><p>Technical fixes and content that rank locally and drive qualified traffic.</p></div>
+        <div class="card"><h3>Google Maps Optimization</h3><p>Google Business Profile tuning, citations, and reviews to win the map pack.</p></div>
+        <div class="card"><h3>Ads Management</h3><p>Simple, targeted campaigns that generate calls and form fills profitably.</p></div>
+        <div class="card"><h3>Sales Process Automation</h3><p>Lightweight follow-ups and tracking so more leads turn into booked jobs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container grid cols-2">
+      <div>
+        <h2>About Rank & Forge</h2>
+        <p>We focus on the boring work that compounds: correct technical setup, clear service pages, fast responses, and steady review growth. The objective is simple—more booked work at healthy margins. We start with a quick audit, fix the basics, and scale only what proves ROI.</p>
+        <p><a href="#contact" class="cta secondary">Request an audit</a></p>
+      </div>
+      <div class="card">
+        <h3>Why it works</h3>
+        <ul>
+          <li>Local intent prioritized over vanity traffic</li>
+          <li>Map visibility and reviews as primary levers</li>
+          <li>Lead handling tightened before adding budget</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <h2 id="contact-heading">Contact</h2>
+      <form action="https://formspree.io/f/FORM_ID" method="POST" accept-charset="UTF-8" novalidate>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" required autocomplete="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" inputmode="email">
+        </div>
+        <div>
+          <label for="company">Company (optional)</label>
+          <input id="company" name="company" autocomplete="organization">
+        </div>
+        <div>
+          <label for="message">What do you need?</label>
+          <textarea id="message" name="message" required minlength="20"></textarea>
+        </div>
+
+        <!-- Honeypot -->
+        <input type="text" name="_hp" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+
+        <!-- Redirect after success -->
+        <input type="hidden" name="redirect" value="https://rankandforge.com/thanks">
+
+        <!-- Consent -->
+        <label><input type="checkbox" name="consent" required> You may contact me about this request.</label>
+
+        <button type="submit" id="submit" class="cta">Send</button>
+        <p role="status" aria-live="polite" id="form-status" class="sr-only"></p>
+      </form>
+      <script>
+        const f=document.querySelector('#contact form'); const btn=document.getElementById('submit');
+        f.addEventListener('submit',()=>{ btn.disabled=true; btn.textContent='Sending…'; });
+      </script>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="y"></span> Rank & Forge</p>
+    <p>
+      <a href="https://x.com/rankandforge">X</a> ·
+      <a href="https://www.linkedin.com/company/rankandforge">LinkedIn</a> ·
+      <a href="https://instagram.com/rankandforge">Instagram</a> ·
+      <a href="mailto:ops@rankandforge.com">ops@rankandforge.com</a>
+    </p>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"YOUR_CF_ANALYTICS_TOKEN"}'></script>
+</footer>
+
+</body>
+</html>
